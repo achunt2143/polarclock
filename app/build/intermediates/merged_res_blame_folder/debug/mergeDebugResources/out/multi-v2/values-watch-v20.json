@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.achunt.polarclock.app-mergeDebugResources-40:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\achun\\.gradle\\caches\\8.9\\transforms\\8964a8cfb95f09ad39faf19101701c7a\\transformed\\appcompat-1.7.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

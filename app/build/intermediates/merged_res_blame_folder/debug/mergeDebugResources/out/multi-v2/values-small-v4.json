@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.achunt.polarclock.app-mergeDebugResources-40:/values-small-v4/values-small-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\achun\\.gradle\\caches\\8.9\\transforms\\880af7b70fe63c41df31c1e2198267ee\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,128,198,270",
+                        "endColumns": "72,69,71,69",
+                        "endOffsets": "123,193,265,335"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="polar_clock_palette_ids" translatable="false">
+        <item>palette_gray</item>
+        <item>palette_white_c</item>
+        <item>palette_black_c</item>
+        <item>palette_matrix</item>
+        <item>palette_halloween</item>
+        <item>palette_violet</item>
+        <item>palette_oceanic</item>
+        <item>palette_zenburn</item>
+        <item>material_you</item> 
+    </string-array>
+    <string-array name="polar_clock_palette_names" translatable="false">
+        <item>@string/palette_gray</item>
+        <item>@string/palette_white_c</item>
+        <item>@string/palette_black_c</item>
+        <item>@string/palette_matrix</item>
+        <item>@string/palette_halloween</item>
+        <item>@string/palette_violet</item>
+        <item>@string/palette_oceanic</item>
+        <item>@string/palette_zenburn</item>
+        <item>@string/palette_material_you</item> 
+    </string-array>
+    <bool name="config_enable_polar_clock_wallpaper" value="true"/>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Polar Clock</string>
+    <string name="clock_settings">Polar clock settings</string>
+    <string name="palette">Color palette</string>
+    <string name="palette_black_c">Black Hole (dynamic)</string>
+    <string name="palette_gray">Iron</string>
+    <string name="palette_halloween">Pumpkin Pie</string>
+    <string name="palette_material_you">Material You (System Theme)</string>
+    <string name="palette_matrix">Green Screen</string>
+    <string name="palette_oceanic">Blue Laser</string>
+    <string name="palette_violet">Midnight</string>
+    <string name="palette_white_c">Polar Bear (dynamic)</string>
+    <string name="palette_zenburn">Alien Fruit Salad</string>
+    <string name="show_seconds">Show seconds</string>
+    <string name="variable_line_width">Vary ring widths</string>
+    <string name="wallpaper_clock">Polar clock</string>
+    <string name="wallpaper_clock_author">Google</string>
+    <string name="wallpaper_clock_desc">
+        Presents the date and time as clockwise arcs: month,
+        day, hour, minute, and second.
+    </string>
+    <style name="Theme.PolarClock" parent="Theme.Material3.DynamicColors.DayNight">
+        
+    </style>
+</resources>

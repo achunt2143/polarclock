@@ -1,0 +1,5 @@
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:author="@string/wallpaper_clock_author"
+    android:description="@string/wallpaper_clock_desc"
+    android:thumbnail="@drawable/polarclock_thumb"
+    android:settingsActivity="com.achunt.polarclock.PolarClockSettingsActivity" />
