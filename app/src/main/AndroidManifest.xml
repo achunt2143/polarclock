@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PolarClock"
+        >
+
+    <activity
+        android:label="@string/clock_settings"
+        android:name="com.achunt.polarclock.PolarClockSettingsActivity"
+        android:theme="@style/Theme.PolarClock"
+        android:exported="true"
+        android:enabled="@bool/config_enable_polar_clock_wallpaper">
+    </activity>
+
+    <service
+        android:exported="true"
+        android:label="@string/wallpaper_clock"
+        android:name="com.achunt.polarclock.PolarClockWallpaper"
+        android:permission="android.permission.BIND_WALLPAPER"
+        android:enabled="@bool/config_enable_polar_clock_wallpaper"
+        android:settingsActivity=".PolarClockSettingsActivity">
+        <intent-filter>
+            <action android:name="android.service.wallpaper.WallpaperService" />
+        </intent-filter>
+        <meta-data android:name="android.service.wallpaper"
+            android:resource="@xml/polar_clock" />
+        <meta-data android:name="android.wallpaper.settings"
+            android:value=".PolarClockSettingsActivity" />
+        <meta-data android:name="android.wallpaper.preview"
+            android:resource="@drawable/polarclock_thumb" />
+        <meta-data android:name="android.settingsActivity"
+            android:value=".PolarClockSettingsActivity" />
+        <meta-data android:name="com.android.wallpaper.settings"
+            android:value=".PolarClockSettingsActivity" />
+        <meta-data android:name="settingsActivity"
+            android:value=".PolarClockSettingsActivity" />
+        <meta-data android:name="android:settingsActivity"
+            android:value=".PolarClockSettingsActivity" />
+    </service>
+    </application>
+</manifest>
